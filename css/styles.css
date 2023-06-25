@@ -521,6 +521,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-text-color);
+  margin-bottom: 16px; 
+  font-weight: 500;
+  color: #ffffff
 }
 
 .footer-social-media-wrapper {
@@ -548,10 +551,12 @@ img {
 .footer-form {
   display: flex;
   align-items: center;
+
 }
 
 .footer-form-label {
   margin-right: 24px;
+  gap: 24px;
 }
 
 .footer-form-email {
@@ -731,7 +736,7 @@ img {
   transform: translate(-50%, -50%) scale(1);
   min-width: 408px;
   min-height: 584px;
-  /* min-height: 576px; */
+  padding: 72px 24px 24px 24px;
 
   background-color: var(--modal-background-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
